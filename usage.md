@@ -7,7 +7,7 @@
 ## check updates
 if you have cloned this repository, install the necessary dependencies using:
 ```bash
-cd $HOME/x-share
+cd $HOME/xypher
 ```
 ```
 git pull
@@ -16,10 +16,10 @@ git pull
 ## installation
 for new users
 ``` bash
-git clone https://github.com/xenatorxq/x-share.git
+git clone https://github.com/xenatorxq/xypher.git
 ```
 ```
-cd x-share
+cd xypher
 ```
 ```
 pip install -r requirements.txt
@@ -28,20 +28,21 @@ pip install -r requirements.txt
 ## running the tool
 to start the main automation tool:
 ```bash
-python xsh.py
+python xp.py
 ```
 
 ## features
-1. **auto share**: automates sharing of facebook posts.
-2. **auto comment**: automates commenting on facebook posts with randomized messages.
+1. **auto share**: (updated) - automates sharing of facebook posts.
+2. **auto comment**: (unavailable) - automates commenting on facebook posts with randomized messages.
 3. **auto react**: (still fixing) - this tool is currently being updated and will be fixed soon.
 4. **get cookies**: manual or bulk login to extract session cookies.
-5. **check cookies**: automatically verifies if cookies are alive and removes dead ones.
+5. **check cookies**: (updated) - automatically verifies if cookies are alive and removes dead ones.
 
 > [!NOTE]
 > must read
-- **cookie extraction**: please note that some accounts may not get cookies due to security measures or account-specific restrictions.
+- **cookie extraction**: (unavailable ) - please note that some accounts may not get cookies due to security measures or account-specific restrictions.
+- **tip**: when starting the sharing progress, add +50 or more for accurate counts.
 
 ## file requirements
-- **cookies.txt**: stores your active session cookies (one per line).
-- **id|pass file**: for bulk login, use a text file where each line is `uid|password`.
+- **cookies.txt**: (unavailable) - stores your active session cookies (one per line).
+- **id|pass file**: (unavailable) - for bulk login, use a text file where each line is `uid|password`.
